@@ -4,3 +4,5 @@ This assignment showcases the things I have learned this week having to do with 
 
 Below is a screen shot of my GitHub Desktop app.
 
+![screen shot of GitHub Desktop app](./images/github-desktop-screen-shot.png)
+
