@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="personality quiz result">
+        <meta name="author" content="Freya Gooday">
+        <meta name="viewport" content="width=devide-width, initial scale=1.0">
+
+        <style>
+            body {background-color: rgb(250, 219, 255)}
+                h1 {color: rgb(159, 78, 203)}
+                h3 {color: rgb(125, 28, 160)}
+                td {color:rgb(96, 0, 100)}
+                button {
+                    color:rgb(96, 0, 100);
+                    background-color:rgb(200, 112, 255);
+                }
+                
+
+        </style>
+
+        <title>
+            Your Ultimate Personality Quiz Result
+        </title>
+    </head>
+    <body>
+        <h1>You got...</H1>
+        <img src="images/koala.jpeg" alt="koala in a tree with a leaf in its mouth" width="400">
+        <!--I am only specifying width as to not mess up the aspect ratio.-->
+        <table>
+            <tr>
+                <th scope="col"><h3>Quirky Koala Personality Type</h3></th>
+            </tr>
+            <tr>
+                <td scope="row">You've got this unique blend of being a master of dry wit and the life of the party when you're in the mood. People can't help but be drawn to your collection of vintage lunchboxes, and your talent for making origami frogs out of napkins is the stuff of legends. You tend to see the glass as not just half-empty, but completely drained. Sure, you may have a knack for predicting when the next big asteroid will hit, but let's not forget your killer dance moves when your favorite song comes on! Embrace your inner koala while pondering life's big questions - just don't forget to join the party every now and then!</td>
+            </tr>
+        </table>
+        <!--I dont really know what went wrong with the table here, but for some reason it centered the "Quirky Koala Personality Type" over the description. Which, was not my intention, i meant to make a simple 2x1 table to display the result. But I like how it looks now. So I'm just going to leave it.-->
+        <!--Update: I frogot to style the table. Still leaving it because it looks good.-->
+        <br />
+        <hr />
+        
+        <form action="index.html" id="home">
+            <button type="submit">Retake the Quiz</button>
+        </form>
+        <br />
+        <form action="personality-types.html" id="see-types">
+            <button type="submit">See All Possible Results</button>
+        </form>
+
+    </body>
+</html>

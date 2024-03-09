@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="personality quiz">
+        <meta name="author" content="Freya Gooday">
+        <meta name="viewport" content="width=devide-width, initial scale=1.0">
+
+        <style>
+            body {background-color: rgb(156, 227, 255)}
+                h1 {color: rgb(208, 76, 0)}
+                h3 {color: rgb(41, 105, 253)}
+                h5 {color:rgb(116, 53, 17)}
+                h6 {color:rgb(255, 121, 43)}
+                p {color:rgb(30, 17, 116)}
+                button {
+                    color:rgb(30, 17, 116);
+                    background-color:rgb(98, 161, 255);
+                }
+
+        </style>
+
+        <title>
+            Ultimate Personality Quiz
+        </title>
+    </head>
+    <body>
+        <h3>
+            There are five questions total. Answer them carefully.
+        </h3>
+        <!-- 
+            -favorite color. 
+            -which animal do you relate to the most. 
+            -what is your mother's maiden name. 
+            -cereal or milk first. 
+            -do any of the following apply: wear glasses, divorced parents, live   outside north america, wearing currently socks, favroite genre of music is indie rock
+        -->
+    <form action="result.html"id="see-results">
+        <p>1. What is your favorite color?</p>
+        <input type="radio" name="color" value="blue" required />Blue
+        <br />
+        <input type="radio" name="color" value="red" />Red
+        <br />
+        <input type="radio" name="color" value="green" />Green
+        <br />
+        <input type="radio" name="color" value="yellow" />Yellow
+        <br />
+        <input type="radio" name="color" value="orange" />Orange 
+        <br />
+        <input type="radio" name="color" value="purple" />Purple 
+        <br />
+        <input type="radio" name="color" value="black" />Black 
+
+        <p>2. Of the following animals, which one do you relate to the most?</p>
+        <input type="radio" name="animal" value="dog" required />Dog 
+        <br />
+        <input type="radio" name="animal" value="giraffe" />Giraffe 
+        <br />
+        <input type="radio" name="animal" value="bat" />Bat
+        <br />
+        <input type="radio" name="animal" value="bug" />Bug 
+
+        <p>3. What is your mother's maiden name?</p>
+        <input type="text" name="name" id="maiden" required >
+        <br />
+
+        <p>4. Do you pour the cereal or the milk first?</p>
+        <input type="radio" name="cereal" value="cereal" required />Cereal first
+        <br />
+        <input type="radio" name="cereal" value="milk" />Milk first
+
+        <p>5. Select any of the following that apply to you.</p>
+        <input type="checkbox" name="extra" value="glasses" />Wear glasses
+        <br />
+        <input type="checkbox" name="extra" value="parents" />Parents are divorced
+        <br />
+        <input type="checkbox" name="extra" value="america" />Live outside of North America
+        <br />
+        <input type="checkbox" name="extra" value="socks" />Currently wearing socks
+        <br />
+        <input type="checkbox" name="extra" value="music" />Favorite genre of music is indie rock
+        <br />
+        <input type="checkbox" name="extra" value="sheet" />Use a top sheet
+        <br />
+        <input type="checkbox" name="extra" value="tape" />Own more than two types of tape
+        <br />
+        <input type="checkbox" name="extra" value="gpa" />Graduated with a 4.0 GPA in high school
+        <hr />
+
+        
+        <button type="submit">See Results</button>
+    </form>
+
+    </body>
+</html>
