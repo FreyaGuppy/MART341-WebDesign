@@ -1,0 +1,1 @@
+I know all of my images are pretty large. I forogt to compress them and now it is too far gone. Noted for next time.
