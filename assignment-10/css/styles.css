@@ -1,0 +1,157 @@
+body {
+    background-color: lightblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:rgb(195, 156, 0);
+    padding:10px;
+}
+header {
+    background-color:rgb(1, 51, 84);
+    width: 800px;
+    height: 40px;
+    
+}
+.canvas {
+    background-color: rgb(1, 51, 84);
+    height: 800px;
+    width: 800px;
+    position: absolute;
+}
+
+.body {
+    width: 360px;
+    height: 360px;
+    background-color: rgb(65, 172, 26);
+    position:absolute;
+    left: 220px;
+    bottom: -75px;
+}
+.eye-left {
+    width: 120px;
+    height: 80px;
+    background-color:rgb(65, 172, 26);
+    position:absolute;
+    left: 220px;
+    bottom: 265px;
+}
+.eye-right {
+    width: 120px;
+    height: 80px;
+    background-color:rgb(65, 172, 26);
+    position:absolute;
+    left: 460px;
+    bottom: 265px;
+}
+.leg-left {
+    width: 80px;
+    height: 240px;
+    background-color:rgb(42, 127, 11);
+    position:absolute;
+    left: 140px;
+    bottom: -115px;
+}
+.leg-right {
+    width: 80px;
+    height: 240px;
+    background-color:rgb(42, 127, 11);
+    position:absolute;
+    left: 580px;
+    bottom: -115px;
+}
+.foot-right {
+    width: 40px;
+    height: 40px;
+    background-color:rgb(42, 127, 11);
+    position:absolute;
+    left: 660px;
+    bottom: -115px;
+}
+.foot-left {
+    width: 40px;
+    height: 40px;
+    background-color:rgb(42, 127, 11);
+    position:absolute;
+    left: 100px;
+    bottom: -115px;
+}
+.crown-base {
+    width: 200px;
+    height: 80px;
+    background-color:rgb(255, 236, 30);
+    position:absolute;
+    left: 300px;
+    bottom: 345px;
+}
+.crownspike-1 {
+    width: 40px;
+    height: 40px;
+    background-color:rgb(255, 236, 30);
+    position:absolute;
+    left: 300px;
+    bottom: 425px;
+}
+.crownspike-2 {
+    width: 40px;
+    height: 40px;
+    background-color:rgb(255, 236, 30);
+    position:absolute;
+    left: 380px;
+    bottom: 425px;
+}
+.crownspike-3 {
+    width: 40px;
+    height: 40px;
+    background-color:rgb(255, 236, 30);
+    position:absolute;
+    left: 460px;
+    bottom: 425px;
+}
+.arm-left {
+    width: 80px;
+    height: 200px;
+    background-color:rgb(42, 127, 11);
+    position:absolute;
+    z-index: 1;
+    left: 260px;
+    bottom: -145px;
+}
+.arm-right {
+    width: 80px;
+    height: 200px;
+    background-color:rgb(42, 127, 11);
+    position:absolute;
+    z-index: 1;
+    left: 460px;
+    bottom: -145px;
+}
+.pupil-left {
+    width: 40px;
+    height: 40px;
+    background-color:rgb(0, 0, 0);
+    position:absolute;
+    z-index: 1;
+    left: 260px;
+    bottom: 265px;
+}
+.pupil-right {
+    width: 40px;
+    height: 40px;
+    background-color:rgb(0, 0, 0);
+    position:absolute;
+    z-index: 1;
+    left: 500px;
+    bottom: 265px;
+}
+.mouth {
+    width: 200px;
+    height: 40px;
+    background-color:rgb(0, 0, 0);
+    position:absolute;
+    z-index: 1;
+    left: 300px;
+    bottom: 165px;
+}
+
+
+
+
