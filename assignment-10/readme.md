@@ -1,1 +1,1 @@
-This webpage showcases my use of a css file. The entire frog was coded using css. I designed this pizel art frog a couple of years abck and thought he would be a good subject for my first css art!
+This webpage showcases my use of a css file. The entire frog was coded using css. I designed this pixel art frog a couple of years back and thought he would be a good subject for my first css art!
