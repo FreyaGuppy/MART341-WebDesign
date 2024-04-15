@@ -3,4 +3,4 @@
 - bug pictures
 - 
 
-#### This site showcases my use of text styling and my ability to remake wikipedia exactly using only html! 
+#### This site showcases my use of text styling and my ability to remake wikipedia exactly using only html and css! 
