@@ -1,0 +1,48 @@
+body {
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    font-family: 'Lin Libertine, serif';
+}
+
+#ricky {
+    vertical-align: middle;
+    border: solid darkgrey
+}
+h3, #article-title {
+    font-family: 'Times New Roman', Times, serif;
+}
+#article-title {
+    font-style:italic;
+}
+#info-title {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.side-by-side{
+    width: 800px;
+}
+.info {
+    line-height: 0.3em;
+    width: 320px;
+    float: right;
+    border: solid black;
+    padding: 10px;
+    background-color: beige
+}
+.species{
+    width: 480;
+    float: left;
+}
+#change-text:after {
+    content: '"encyclopedia"'
+}
+#change-text:hover:after {
+    content: 'single webpage about this one bug'
+}
+.references {
+    width: 800px;
+    float:left;
+}
