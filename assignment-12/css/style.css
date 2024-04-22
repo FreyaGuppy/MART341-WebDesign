@@ -7,27 +7,65 @@ img {
 header {
   position:fixed;
   background-color:rgb(81, 122, 41);
-  color: black;
+  border: black solid;
   font-variant: small-caps;
   text-align:center;
-  
+
 }
 .menu-item {
   display: inline-block;
-  margin: 1em;
+  margin: auto;
   min-width: 4em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding: 0.5em;
+}
+.menu-item a {
+  color: black;
+  text-decoration: none;
+}
+.menu-item:hover {
+  background-color:rgb(103, 152, 55);
+  
 }
 .dropdown {
   display: inline-block;
+  margin: auto;
+  min-width: 4em;
+  padding: 0.5em;
 }
-.dropdown-item {
+.dropdown a {
+  color: black;
+  text-decoration: none;
+}
+.dropdown:hover {
+  background-color:rgb(103, 152, 55)
+}
+.dropdown-content {
   display: none;
   position: absolute;
   margin: 0;
   margin-top: 0.5em;
+  background-color: rgb(183, 203, 108);
+  z-index: 1;
 }
+.dropdown-content a {
+  color: rgb(0, 48, 0);
+}
+.dropdown:hover .dropdwon-content {
+  display:block;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+  color:rgb(0, 48, 0);
+  background-color: rgb(183, 203, 108);
+
+}
+.dropdown-item {
+  display:block;
+  text-align: center;
+  margin: 0;
+  padding: 0.5em;
+}
+/*I tried copying the format fo your dropdown menu as closely as I could to make it work becuase I dont really understand this, but it still isn't working. Not sure exactly why. */
+
 .instructions {
   width: 70%;
   background-color:rgb(137, 233, 134);
