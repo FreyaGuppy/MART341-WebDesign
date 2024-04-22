@@ -5,3 +5,6 @@
     font-style: normal;
 /*I want to use this font for the logo because it imitates the Wikipedia logo but it is not working and I can't figure out why :( */
 }
+.logo {
+    font-variant: small-caps;
+}

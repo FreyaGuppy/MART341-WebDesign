@@ -1,0 +1,51 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+img {
+  width:50%
+}
+header {
+  position:fixed;
+  background-color:rgb(81, 122, 41);
+  color: black;
+  font-variant: small-caps;
+  text-align:center;
+  
+}
+.menu-item {
+  display: inline-block;
+  margin: 1em;
+  min-width: 4em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.dropdown {
+  display: inline-block;
+}
+.dropdown-item {
+  display: none;
+  position: absolute;
+  margin: 0;
+  margin-top: 0.5em;
+}
+.instructions {
+  width: 70%;
+  background-color:rgb(137, 233, 134);
+  margin: 3em;
+  padding: 1em;
+
+
+}
+#01 {
+  display: inline-block;
+  width: 50%;
+}
+/*.my-box {
+    width: ;
+    height: ;
+    border: ;
+    padding: ;
+    margin: ;
+    overflow: :scroll
+  }
+*/
