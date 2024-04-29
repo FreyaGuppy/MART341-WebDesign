@@ -59,24 +59,21 @@ header {
 body {
     background-color: rgb(255, 232, 201);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
+    font-size: 14pt;
     
 }
 
-/*this isn't working*/
-.home-background {
-    width: 100%;
-    height: auto;
-    background-image: url(../images/home.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+.home {
+    width:100%;
 }
 
-/* I think I dont understand how the percentage thing works. It keeps not doing what I expect it to do.*/
-.home {
-    width: 70%;
-    float: right;
-}
-.home-image {
+img {
+    max-width: 50%;
     float: left;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.text-box {
+    max-width: 60%;
 }
