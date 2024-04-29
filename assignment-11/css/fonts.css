@@ -1,10 +1,7 @@
 @font-face {
-    font-family: 'Lin Libertine';
-    src: url('./fonts/lin-libertine.tff') format('truetype');
+    font-family: 'LinLibertine';
+    src: url('../fonts/lin-libertine.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 /*I want to use this font for the logo because it imitates the Wikipedia logo but it is not working and I can't figure out why :( */
-}
-.logo {
-    font-variant: small-caps;
 }

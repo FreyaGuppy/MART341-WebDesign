@@ -50,7 +50,7 @@ header {
 .dropdown-content a {
   color: rgb(0, 48, 0);
 }
-.dropdown:hover .dropdwon-content {
+.dropdown:hover .dropdown-content {
   display:block;
 }
 .dropdown-item:hover, .dropdown-item:hover a {
@@ -64,7 +64,9 @@ header {
   margin: 0;
   padding: 0.5em;
 }
-/*I tried copying the format fo your dropdown menu as closely as I could to make it work becuase I dont really understand this, but it still isn't working. Not sure exactly why. */
+/* I tried copying the format fo your dropdown menu as closely as I could to make it work becuase I dont really understand this, but it still isn't working. Not sure exactly why. */
+
+/* I also want to make the images side by side with the instructions, like your website, but I have't figured that out yet.*/
 
 .instructions {
   width: 70%;
@@ -78,12 +80,7 @@ header {
   display: inline-block;
   width: 50%;
 }
-/*.my-box {
-    width: ;
-    height: ;
-    border: ;
-    padding: ;
-    margin: ;
-    overflow: :scroll
-  }
-*/
+.pic {
+  float:right;
+}
+

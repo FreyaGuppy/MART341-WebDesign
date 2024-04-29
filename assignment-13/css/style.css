@@ -1,0 +1,82 @@
+header {
+    background-color:rgb(5, 36, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-variant: small-caps;
+    margin: 0;
+    height: 2.25em;
+    text-align: left;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 0 0;
+    min-width: 8em;
+    text-align: center;
+    background-color:rgb(5, 36, 5);
+    padding: 0.5em 0;
+}
+
+.menu-item a {
+    color:rgb(255, 245, 231);
+    text-decoration: none;
+
+}
+.menu-item:hover {
+    background-color:rgb(8, 76, 4);
+}
+
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0;
+    margin-top: 0.5em;
+    color:rgb(8, 76, 4);
+    background-color: rgb(213, 243, 107);
+    z-index: 1;
+}
+.dropdown-content a {
+    color:rgb(8, 76, 4);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    background-color:rgb(239, 255, 181);
+    color:rgb(11, 113, 5)
+}
+body {
+    background-color: rgb(255, 232, 201);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    
+}
+
+/*this isn't working*/
+.home-background {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/home.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* I think I dont understand how the percentage thing works. It keeps not doing what I expect it to do.*/
+.home {
+    width: 70%;
+    float: right;
+}
+.home-image {
+    float: left;
+}
