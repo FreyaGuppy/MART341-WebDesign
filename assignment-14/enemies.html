@@ -16,9 +16,81 @@
             <div class="navbar-menu" id="nav-links">
                 <a href="./index.html" class="navbar-item">Home</a>
                 <a href="./doctors.html" class="navbar-item">Doctors</a>
-                <a href="./enemies.html" class="navbar-item">Enemies</a>
+                <a href="./enemies.html" class="navbar-item"><b>Enemies</b></a>
             </div>  
         </nav>
-    </body>
+        <h2 class="is-size-4 py-6 px-2 title columns is-centered">Click on the tabs below to see general information on a few of Doctor Who's most imfamous enemies:</h2>
 
+
+        <div class="tabs is-centered">
+            
+            <ul>
+              <li class="is-active" data-target="cyberman"><a>Cybermen</a></li>
+              <li data-target="dalek"><a>Daleks</a></li>
+              <li data-target="master"><a>The Master</a></li>
+              <li data-target="angel"><a>Weeping Angels</a></li>
+              <li data-target="silence"><a>The Silence</a></li>
+              <li data-target="potato"><a>Sontarans</a></li>
+            </ul>
+          </div>
+          <div class="px-2" id="tab-content">
+            <div id="cyberman">
+                <h1 class="is-size-1">Cybermen</h1>
+                <h2>The Cybermen are a race of "upgraded" humans. With metal bodies and a human brain which has had all feeling removed, the Cybermen want to make every living human into one of them, because they beleive their way of being is superior.</h2>
+
+                <img src="./images/cyberman.jpg" width="300">
+            </div>
+            <div id="dalek" class="is-hidden">
+                <h1 class="is-size-1">Daleks</h1>
+                <h2>The Daleks are a race of aliens who have locked themselves away in a near impermeable metal shell. Daleks belive they are superior to every other living thing in the universe and can only feel hatred. Their only goal is to "exterminate" every other living being. Their number one enemy is the Doctor.</h2>
+                <img src="./images/dalek.jpg" width="400">
+            </div>
+            <div id="master" class="is-hidden">
+                <h1 class="is-size-1">The Master</h1>
+                <h2>The Master, also known as Missy, is the only living Time Lord other than the Doctor. The Master has a sorded past with the Doctor. They grew up together and then grew apart. The Master went mad somehwere along the way and now only wishes to cause chaos and destruction and ultimately defeat the Doctor.</h2>
+                <img src="./images/master.jpg" width="600">
+            </div>
+            <div id="angel" class="is-hidden">
+                <h1 class="is-size-1">Weeping Angels</h1>
+                <h2>The Weeping Angels are an alien race who are literally inanimate when observed, but come to life when not observed. They move incredibly quickly. If you are touched by a weeping angel, you will be sent back in time far enough that you will have died before you make it back to the time that you were originally sent away from. Don't blink.</h2>
+                <img src="./images/angel.jpg" width="500">
+            </div>
+            <div id="silence" class="is-hidden">
+                <h1 class="is-size-1">The Silence</h1>
+                <h2>The Silence is a race of aliens that cannot be rememebered. As soon as you look away from one, you will entirely forget it was ever there.</h2>
+                <img src="./images/silence.jpg" width="300">
+            </div>
+            <div id="potato" class="is-hidden">
+                <h1 class="is-size-1">Sontarans</h1>
+                <h2>The Sontarans are a race of aliens from the planet Sontar. Every Sontaran is a clone of every other Sontaran. They are a hemogenous people who are highly specialized in the art of war.</h2>
+                <img src="./images/potato.jpg" width="600">
+            </div>
+            <div id="fifteen" class="is-hidden">
+                <h1 class="is-size-1">The Fifteenth Doctor</h1>
+                <h2>The fifteenth doctor is being played by Ncuti Gatwa. As of writing, Gatwa has appeared in four specials, but will go on to play the doctor for at least two full seasons. His current companion is Ruby Sunday.</h2>
+                <img src="./images/15.jpg">
+            </div>
+          </div>
+          <script>
+            const tabs = document.querySelectorAll('.tabs li');
+            const tabContentBoxes = document.querySelectorAll('#tab-content > div');
+
+            tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(item => item.classList.remove('is-active'));
+                tab.classList.add('is-active');
+
+                const target = tab.dataset.target;
+                // console.log(target);
+                tabContentBoxes.forEach(box => {
+                if (box.getAttribute('id') === target) {
+                    box.classList.remove('is-hidden');
+                } else {
+                    box.classList.add('is-hidden');
+                }
+                })
+            })
+            })
+        </script>
+    </body>
 </html>
